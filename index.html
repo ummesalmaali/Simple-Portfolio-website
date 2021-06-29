@@ -14,6 +14,7 @@
     <!-- VENDORS FILES -->
     <link rel="stylesheet" href="vendors/css/normalize.css">
     <link rel="stylesheet" href="vendors/css/grid.css">
+    <link rel="stylesheet" href="vendors/css/animated-circle.css">
     <!-- RESOURCES FILES -->
     <link rel="stylesheet" href="resources/css/style.css">
     <link rel="stylesheet" href="resources/css/resposive.css">
@@ -31,7 +32,7 @@
                     <li><a href="#services">Services</a></li>
                     <li><a href="#team">Team</a></li>
                     <li><a href="#skills">Skills</a></li>
-                    <li><a href="">Contacts</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
                 </ul>
             </div>
         </nav>
@@ -77,93 +78,222 @@
             </div>
         </div>
     </section>
-<!-- Services ends here -->
-<!-- Team-section  starts here -->
-<section id="team" class="team-section">
+    <!-- Services ends here -->
+    <!-- Team-section  starts here -->
+    <section id="team" class="team-section">
+        <div class="row">
+            <h2>Meet Our Beautiful Team</h2>
+            <p style="color: #000;" class="little-description">We are a small team of designers and develoers who help
+                build new brands </p>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_4 box">
+                <img src="./resources/img/1.jpg" alt="ANNE HATHAWAY" class="team-member">
+                <h3>ANNE HATHAWAY</h3>
+                <span class="role">CEO & Marketing Guru</span>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid perferendis, quod velit architecto
+                    officiis doloribus!</p>
+
+                <div class="social-link">
+                    <ul>
+                        <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></i></a></li>
+                        <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.inkedin.com"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://www.gmail.com"><i class="fas fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col span_1_of_4 box">
+                <img src="./resources/img/2.jpg" alt="ANNE HATHAWAY" class="team-member">
+                <h3>KATE UPTON</h3>
+                <span class="role">CEO & Marketing Guru</span>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid perferendis, quod velit architecto
+                    officiis doloribus!</p>
+
+                <div class="social-link">
+                    <ul>
+                        <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></i></a></li>
+                        <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.inkedin.com"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://www.gmail.com"><i class="fas fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col span_1_of_4 box">
+                <img src="./resources/img/3.jpg" alt="ANNE HATHAWAY" class="team-member">
+                <h3>HANDE ERCEL</h3>
+                <span class="role">CEO & Marketing Guru</span>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid perferendis, quod velit architecto
+                    officiis doloribus!</p>
+
+                <div class="social-link">
+                    <ul>
+                        <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></i></a></li>
+                        <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.inkedin.com"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://www.gmail.com"><i class="fas fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col span_1_of_4 box">
+                <img src="./resources/img/4.jpg" alt="ANNE HATHAWAY" class="team-member">
+                <h3>ANNE HATHAWAY</h3>
+                <span class="role">CEO & Marketing Guru</span>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid perferendis, quod velit architecto
+                    officiis doloribus!</p>
+
+                <div class="social-link">
+                    <ul>
+                        <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></i></a></li>
+                        <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="https://www.inkedin.com"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="https://www.gmail.com"><i class="fas fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team-section ends here -->
+
+    <!-- skills starta here -->
+
+    <section class="skill-section" id="skills">
+        <div class="row">
+            <h2>WE GOT SKILLS!</h2>
+            <p class="little-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate aperiam
+                velit praesentium nulla, nam dolore cumque expedita odit doloribus culpa.</p>
+        </div>
+        <div class="row">
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress web-design" data-percentage="90" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;">
+                    </circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">90%</text>
+                </svg>
+                <h3>WEB DESIGN</h3>
+            </div>
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress html-css" data-percentage="75" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;">
+                    </circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">75%</text>
+                </svg>
+                <h3>HTML/CSS</h3>
+            </div>
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress graphic-design" data-percentage="70" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;">
+                    </circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">70%</text>
+                </svg>
+                <h3>GRAPHIC DESIGN</h3>
+            </div>
+            <div class="col span_1_of_4 box">
+                <svg class="radial-progress ui-ux" data-percentage="85" viewBox="0 0 80 80">
+                    <circle class="incomplete" cx="40" cy="40" r="35"></circle>
+                    <circle class="complete" cx="40" cy="40" r="35" style="stroke-dashoffset: 39.58406743523136;">
+                    </circle>
+                    <text class="percentage" x="50%" y="57%" transform="matrix(0, 1, -1, 0, 80, 0)">85%</text>
+                </svg>
+                <h3>UI/UX</h3>
+            </div>
+        </div>
+    </section>
+
+    <!-- skills ends here -->
+    <!-- Portfolio starts here -->
+    <section class="portfolio-section" id="portfolio">
+        <div class="row">
+            <h2>Our Portfolio</h2>
+            <p class="little-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam eius quis
+                harum eos provident, cum hic repellat culpa!</p>
+        </div>
+        <div class="row">
+            <div class="portfolio-filter">
+                <button type="button" data-filter='all'>All</button>
+                <button type="button" data-filter='.web'>Web</button>
+                <button type="button" data-filter='.apps'>APPS</button>
+                <button type="button" data-filter='.icons'>ICONS</button>
+            </div>
+        </div>
+        <div class="row container">
+            <div class="col span_1_of_2 mix apps box">
+                 <img src="resources/img/portfolio1.png" alt="Isimetric Perspective Mockup" class="portfolio-image">
+                 <h4>Isimetric Perspective Mockup</h4>
+            </div>
+            <div class="col span_1_of_2 mix apps web box">
+                 <img src="resources/img/portfolio2.png" alt="Isimetric Perspective Mockup" class="portfolio-image">
+                 <h4>Isimetric Perspective Mockup</h4>
+            </div>
+            <div class="col span_1_of_2 mix icons box">
+                 <img src="resources/img/portfolio3.png" alt="Isimetric Perspective Mockup" class="portfolio-image">
+                 <h4>Isimetric Perspective Mockup</h4>
+            </div>
+            <div class="col span_1_of_2 mix icons web apps box">
+                 <img src="resources/img/portfolio4.png" alt="Isimetric Perspective Mockup" class="portfolio-image">
+                 <h4>Isimetric Perspective Mockup</h4>
+            </div>
+        </div>
+        <div class="row">
+            <a href="" class="btn btn-load-more">Load More Projects</a>
+        </div>
+    </section>
+    <!-- Portfolio ends here -->
+    <!-- Testimonial starts here -->
+<testimonial class="testimonial-section" id="testimonial">
     <div class="row">
-        <h2>Meet Our Beautiful Team</h2>
-        <p style="color: #000;" class="little-description">We are a small team of designers and develoers who help build new brands </p>
+        <h2>What peoplr say about us</h2>
+        <p class="little-description"></p>
     </div>
-    <div class="row">
-        <div class="col span_1_of_4 box">
-            <img src="./resources/img/1.jpg" alt="ANNE HATHAWAY" class="team-member">
-            <h3>ANNE HATHAWAY</h3>
-            <span class="role">CEO & Marketing Guru</span>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid perferendis, quod velit architecto officiis doloribus!</p>
-        
-        <div class="social-link">
-            <ul>
-                <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></i></a></li>
-                <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.inkedin.com"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://www.gmail.com"><i class="fas fa-envelope"></i></a></li>
-            </ul>
+<div class="row">
+    <div class="col span_1_of_2 box">
+        <div class="client-photo">
+            <img src="resources/img/1.jpg" alt="Chanel Iman">
         </div>
-        </div>
-        <div class="col span_1_of_4 box">
-            <img src="./resources/img/2.jpg" alt="ANNE HATHAWAY" class="team-member">
-            <h3>KATE UPTON</h3>
-            <span class="role">CEO & Marketing Guru</span>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid perferendis, quod velit architecto officiis doloribus!</p>
-        
-        <div class="social-link">
-            <ul>
-                <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></i></a></li>
-                <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.inkedin.com"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://www.gmail.com"><i class="fas fa-envelope"></i></a></li>
-            </ul>
-        </div>
-        </div>
-        <div class="col span_1_of_4 box">
-            <img src="./resources/img/3.jpg" alt="ANNE HATHAWAY" class="team-member">
-            <h3>HANDE ERCEL</h3>
-            <span class="role">CEO & Marketing Guru</span>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid perferendis, quod velit architecto officiis doloribus!</p>
-        
-        <div class="social-link">
-            <ul>
-                <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></i></a></li>
-                <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.inkedin.com"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://www.gmail.com"><i class="fas fa-envelope"></i></a></li>
-            </ul>
-        </div>
-        </div>
-        <div class="col span_1_of_4 box">
-            <img src="./resources/img/4.jpg" alt="ANNE HATHAWAY" class="team-member">
-            <h3>ANNE HATHAWAY</h3>
-            <span class="role">CEO & Marketing Guru</span>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aliquid perferendis, quod velit architecto officiis doloribus!</p>
-        
-        <div class="social-link">
-            <ul>
-                <li><a href="https://www.facebook.com"><i class="fab fa-facebook-f"></i></i></a></li>
-                <li><a href="https://www.twitter.com"><i class="fab fa-twitter"></i></a></li>
-                <li><a href="https://www.inkedin.com"><i class="fab fa-linkedin"></i></a></li>
-                <li><a href="https://www.gmail.com"><i class="fas fa-envelope"></i></a></li>
-            </ul>
-        </div>
+        <div class="client-review">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur blanditiis magni temporibus ea facere dicta nemo quae est libero asperiores.
+            </p>
+            <h3>Chanel Iman</h3>
+            <span class="role">CEO of Pinterest</span>
         </div>
     </div>
-</section>
-<!-- Team-section ends here -->
-
-<!-- skills starta here -->
-
-<section class="skill-section" id="skills">
-<div class="row">
-    <h2>WE GOT SKILLS!</h2>
-    <p class="little-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate aperiam velit praesentium nulla, nam dolore cumque expedita odit doloribus culpa.</p>
-</div>
-<div class="row">
-    <div class="col span_1_of_4 box">
-
+    <div class="col span_1_of_2 box">
+        <div class="client-photo">
+            <img src="resources/img/2.jpg" alt="Chanel Iman">
+        </div>
+        <div class="client-review">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur blanditiis magni temporibus ea facere dicta nemo quae est libero asperiores.
+            </p>
+            <h3>Chanel Iman</h3>
+            <span class="role">CEO of Pinterest</span>
+        </div>
+    </div>
+    <div class="col span_1_of_2 box">
+        <div class="client-photo">
+            <img src="resources/img/3.jpg" alt="Chanel Iman">
+        </div>
+        <div class="client-review">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur blanditiis magni temporibus ea facere dicta nemo quae est libero asperiores.
+            </p>
+            <h3>Chanel Iman</h3>
+            <span class="role">CEO of Pinterest</span>
+        </div>
     </div>
 </div>
-</section>
 
-<!-- skills ends here -->
+
+
+</testimonial>
+
+
+
+    <!-- Testimonial ends here -->
 
 
 
@@ -174,6 +304,8 @@
     <script src="vendors/js/html5shiv.min.js"></script>
     <script src="vendors/js/respond.min.js"></script>
     <script src="vendors/js/selectivizr-min.js"></script>
+    <script src="vendors/js/animated-circle.js"></script>
+    <script src="vendors/js/mixitup.min.js"></script>
     <script src="resources/js/main.js"></script>
 
 </body>
