@@ -1,0 +1,68 @@
+@media only screen and (max-width:1024px){
+    .row{
+        margin: 0 15px;
+    }
+    .main-nav{
+        display: none;
+    }
+    html{
+        font-size: 57.5%;
+    }
+    .client-photo{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .client-review{
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+    .client-section{
+        width: 100%;
+        margin: 0;
+    }
+}
+@media only screen and (max-width:980px){
+    .span_1_of_4 {
+        width: 49.2%;
+    }
+    .span_1_of_4:nth-child(3){
+        margin: 0;
+    }
+    html{
+        font-size: 62.5%;
+    }
+}
+@media only screen and (max-width:480px){
+    .little-description{
+        width: 100%;
+        margin-left: 0;
+    }
+    h1{
+        font-size: 3.5rem;
+    }
+    h2{
+        font-size: 3rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+}
+@media only screen and (max-width:768px){
+    .span_1_of_4{
+        width: 100%;
+    }
+    .client-review p{
+        text-align: center;
+    }
+    h1{
+        font-size: 3rem;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+}

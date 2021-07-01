@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Cuda - An awesome single page portfolio html template</title>
+    <link rel="shortcut icon" href="resources/img/favicon.png" type="image/x-icon">
     <!-- GOOGLE FONTS -->
     <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,400,600,700" rel="stylesheet">
     <!-- FONT AWESOME -->
@@ -17,35 +18,36 @@
     <link rel="stylesheet" href="vendors/css/animated-circle.css">
     <!-- RESOURCES FILES -->
     <link rel="stylesheet" href="resources/css/style.css">
-    <link rel="stylesheet" href="resources/css/resposive.css">
+    <link rel="stylesheet" href="resources/css/responsive.css">
 </head>
 
 <body>
     <!-- Header starts here -->
-    <header>
+    <header id="home">
         <nav>
             <div class="row">
-                <a href="#"> <img src="resources/img/logo.png" alt="Cuda" class="logo">
+                <a href="#home"> <img src="resources/img/logo.png" alt="Cuda" class="logo">
                 </a>
                 <ul class="main-nav">
-                    <li class="active"><a href="">Home</a></li>
+                    <li class="active"><a href="#home">Home</a></li>
                     <li><a href="#services">Services</a></li>
                     <li><a href="#team">Team</a></li>
                     <li><a href="#skills">Skills</a></li>
                     <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
         </nav>
         <div class="row">
             <div class="hero-text-box">
                 <h1>Hi there! We are the new kids on the the block and we build awesome websites and mobile apps </h1>
-                <a href="#" class="btn btn-hero">Work With us!</a>
+                <a href="#contact" class="btn btn-hero">Work With us!</a>
             </div>
         </div>
     </header>
     <!-- header ends here -->
     <!-- Services starts here -->
-    <section id="services" class="services-section">
+    <section class="services-section js--services-section" id="services">
         <div class="row">
             <div class="row">
                 <h2>Services We Provide</h2>
@@ -243,10 +245,10 @@
     </section>
     <!-- Portfolio ends here -->
     <!-- Testimonial starts here -->
-<testimonial class="testimonial-section" id="testimonial">
+<section class="testimonial-section" id="testimonial">
     <div class="row">
-        <h2>What peoplr say about us</h2>
-        <p class="little-description"></p>
+        <h2>What people say about us!</h2>
+        <p class="little-description">Our Clients love us</p>
     </div>
 <div class="row">
     <div class="col span_1_of_2 box">
@@ -285,15 +287,65 @@
             <span class="role">CEO of Pinterest</span>
         </div>
     </div>
+    <div class="col span_1_of_2 box">
+        <div class="client-photo">
+            <img src="resources/img/4.jpg" alt="Chanel Iman">
+        </div>
+        <div class="client-review">
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur blanditiis magni temporibus ea facere dicta nemo quae est libero asperiores.
+            </p>
+            <h3>Chanel Iman</h3>
+            <span class="role">CEO of Pinterest</span>
+        </div>
+    </div>
 </div>
+</section>
+  <!-- Testimonial ends here -->
+<!-- contact Section starts here -->
 
+<section class="contact-section" id="contact">
+<div class="row">
+    <h2>Get In Touch</h2>
+    <p class="little-description">
+        1600 Pennsylvania AVENEW, WASHINGTON, DC 20500, United States of America. Tel: (202) 456 -1111
+    </p>
+</div>
+<div class="row">
+    <form action="https://formspree.io/f/xqkwlloa" method="POST">
+<div class="row">
+    <div class="col span_1_of_2">
+        <input type="text" name="Name" placeholder="Enter Your Name *" required>
+    </div>
+    <div class="col span_1_of_2">
+        <input type="email" name="Email" placeholder="Enter Your Email Address *" required>
+        </div>
+</div>
+<div class="row">
+   <textarea name="message"  cols="30" rows="10" placeholder="Your Message *" required>Message</textarea>
+</div>
+<input class="btn btn-submit" type="submit" value="Send Message">
+    </form>
+</div>
+</section>
+<!-- contact Section ends here -->
+<!-- FOOTER Section STARTS here -->
+<footer class="footer-section">
+    <div class="row">
+          <ul>
+              <li><a href="">facebook</a></li>
+              <li><a href="">twitter</a></li>
+              <li><a href="">instagram</a></li>
+              <li><a href="">inkedIn</a></li>
+              <li><a href="">google+</a></li>
+              <li><a href="">behance</a></li>
+              <li><a href="">dribble</a></li>
+          </ul>
+    </div>
+</footer>
+<!-- contact Section ends here -->
 
-
-</testimonial>
-
-
-
-    <!-- Testimonial ends here -->
+  
 
 
 
@@ -304,6 +356,7 @@
     <script src="vendors/js/html5shiv.min.js"></script>
     <script src="vendors/js/respond.min.js"></script>
     <script src="vendors/js/selectivizr-min.js"></script>
+    <script src="vendors/js/jquery.waypoints.min.js"></script>
     <script src="vendors/js/animated-circle.js"></script>
     <script src="vendors/js/mixitup.min.js"></script>
     <script src="resources/js/main.js"></script>
