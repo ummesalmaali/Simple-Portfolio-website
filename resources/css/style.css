@@ -9,6 +9,7 @@
 html{
     font-size: 62.5%;
     scroll-behavior: smooth;
+    height: 85vh;
 }
 body {
     font-family: 'Titillium Web', sans-serif;
@@ -25,6 +26,9 @@ ul li {
 h1{
     font-size: 4.2rem;
     color: #fff;
+}
+:focus{
+    outline: 0;
 }
 
 .clearfix::after{
@@ -171,8 +175,12 @@ header{
     left: 0;
     width: 100%;
     background: rgba(135, 80, 156, 0.9);
-    padding-bottom: 3.3rem;
+    padding: 2rem 0;
     z-index: 9999;
+    
+}
+.m-0{
+    margin: 0 !important;
 }
 .hero-text-box{
     position: absolute;

@@ -1,4 +1,12 @@
+@media only screen and (max-width:1200px){
+    header{
+        height: 65vh;
+    }
+}
 @media only screen and (max-width:1024px){
+    header{
+        height: 55vh;
+    }
     .row{
         margin: 0 15px;
     }
@@ -34,22 +42,11 @@
         font-size: 62.5%;
     }
 }
-@media only screen and (max-width:480px){
-    .little-description{
-        width: 100%;
-        margin-left: 0;
-    }
-    h1{
-        font-size: 3.5rem;
-    }
-    h2{
-        font-size: 3rem;
-    }
-    h3{
-        font-size: 2rem;
-    }
-}
+
 @media only screen and (max-width:768px){
+    header{
+        height: 45vh;
+    }
     .span_1_of_4{
         width: 100%;
     }
@@ -65,4 +62,26 @@
     h3{
         font-size: 2rem;
     }
+}
+@media only screen and (max-width:480px){
+    header{
+        height: 75vh;
+    }
+    .little-description{
+        width: 100%;
+        margin-left: 0;
+    }
+    h1{
+        font-size: 2rem;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    h3{
+        font-size: 1rem;
+    }
+}
+.testimonial-section .col:nth-child(3),
+.testimonial-section .col:nth-child(4){
+margin-top: 4rem;
 }
